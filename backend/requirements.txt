@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+pdfplumber
+pytesseract
+Pillow
+sentence-transformers
+scikit-learn
+qdrant-client
+python-dotenv
