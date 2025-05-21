@@ -8,3 +8,8 @@ sentence-transformers
 scikit-learn
 qdrant-client
 python-dotenv
+pdf2image
+PyMuPDF
+openai
+requests
+streamlit

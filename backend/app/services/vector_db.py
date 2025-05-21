@@ -1,6 +1,3 @@
-print("Qdrant URL:", os.getenv("QDRANT_URL"))
-print("Qdrant API Key:", os.getenv("QDRANT_API_KEY"))
-
 import os
 import uuid
 from typing import List, Dict
@@ -9,8 +6,12 @@ from dotenv import load_dotenv
 from qdrant_client import QdrantClient
 from qdrant_client.http.models import VectorParams, Distance, PointStruct
 
+
 # Load environment variables from .env file
 load_dotenv()
+
+print("Qdrant URL:", os.getenv("QDRANT_URL"))
+print("Qdrant API Key:", os.getenv("QDRANT_API_KEY"))
 
 # Retrieve sensitive values from environment
 QDRANT_API_KEY = os.getenv("QDRANT_API_KEY")
